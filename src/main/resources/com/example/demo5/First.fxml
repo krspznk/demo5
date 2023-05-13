@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="610.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.First">
+   <children>
+      <Button fx:id="done" layoutX="379.0" layoutY="380.0" mnemonicParsing="false" onAction="#second" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #F0F8FF; -fx-border-color: #708090;" text="Далі">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="exit" graphicTextGap="0.0" layoutX="496.0" layoutY="380.0" mnemonicParsing="false" onAction="#exit" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #F0F8FF; -fx-border-color: #708090;" text="Вийти">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Button>
+      <Text layoutX="130.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вкажіть кількість відправних точок (n)">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font></Text>
+      <Text layoutX="131.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вкажіть кількість точок отримання (k)">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font></Text>
+      <TextField fx:id="n" layoutX="473.0" layoutY="172.0" prefHeight="25.0" prefWidth="46.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="k" layoutX="473.0" layoutY="316.0" prefHeight="25.0" prefWidth="46.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></TextField>
+      <AnchorPane prefHeight="83.0" prefWidth="610.0" style="-fx-background-color: #B0C4DE;">
+         <children>
+            <Text layoutX="153.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Рішення транспртної задачі">
+               <font>
+                  <Font name="Times New Roman Bold" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="105.0" fitWidth="105.0" layoutX="27.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@завод.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="85.0" layoutX="27.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@магазин.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="100.0" layoutX="243.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@стрілка.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
